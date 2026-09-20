@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mystoscctv - Servicio Técnico Especializado</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+        body {
+            background-color: #0b132b;
+            color: #ffffff;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            width: 100%;
+            max-width: 480px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 24px;
+        }
+        .header h1 {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 6px;
+            color: #ffffff;
+        }
+        .header p {
+            font-size: 14px;
+            color: #94a3b8;
+        }
+        .section-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin: 20px 0 12px 4px;
+            color: #38bdf8;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .card-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 24px;
+        }
+        .service-item {
+            background-color: #1e293b;
+            border: 1px solid #334155;
+            padding: 14px 16px;
+            border-radius: 12px;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: #e2e8f0;
+        }
+        .service-item span {
+            color: #38bdf8;
+            font-size: 18px;
+        }
+        .contact-box {
+            background-color: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 16px;
+            padding: 8px 16px;
+            margin-bottom: 24px;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 14px 0;
+            border-bottom: 1px solid #334155;
+            text-decoration: none;
+            color: #ffffff;
+        }
+        .contact-item:last-child {
+            border-bottom: none;
+        }
+        .icon {
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            flex-shrink: 0;
+        }
+        .icon-call { background-color: #065f46; color: #34d399; }
+        .icon-wa { background-color: #064e3b; color: #4ade80; }
+        .icon-email { background-color: #1e40af; color: #60a5fa; }
+        .icon-fb { background-color: #1e3a8a; color: #93c5fd; }
+        
+        .contact-info .title {
+            font-size: 15px;
+            font-weight: 500;
+        }
+        .contact-info .subtitle {
+            font-size: 12px;
+            color: #94a3b8;
+        }
+        .btn-cta {
+            display: block;
+            width: 100%;
+            background-color: #ef4444;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.2s;
+            margin-bottom: 16px;
+        }
+        .btn-cta:hover {
+            background-color: #dc2626;
+        }
+        .footer-location {
+            text-align: center;
+            font-size: 13px;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>Servicio Técnico Especializado</h1>
+        <p>CCTV y Seguridad • Mystoscctv</p>
+    </div>
+
+    <div class="section-title">✨ Servicios Principales</div>
+    <div class="card-list">
+        <div class="service-item"><span>✓</span> Instalación Completa del Sistema</div>
+        <div class="service-item"><span>✓</span> Mantenimiento Preventivo y Correctivo</div>
+        <div class="service-item"><span>✓</span> Monitoreo 24/7 y Configuración DVR/NVR</div>
+        <div class="service-item"><span>✓</span> Cerca eléctrica y electrocerradura</div>
+        <div class="service-item"><span>✓</span> Integración de sistemas de seguridad</div>
+        <div class="service-item"><span>✓</span> Control vehicular, Tag y barreras</div>
+    </div>
+
+    <div class="section-title">📍 Contacto</div>
+    <div class="contact-box">
+        <a href="tel:+56927004308" class="contact-item">
+            <div class="icon icon-call">📞</div>
+            <div class="contact-info">
+                <div class="title">+56 9 2700 4308</div>
+                <div class="subtitle">Llamada directa</div>
+            </div>
+        </a>
+        <a href="https://wa.me/56927004308?text=Hola,%20me%20gustaría%20cotizar%20una%20instalación" target="_blank" class="contact-item">
+            <div class="icon icon-wa">💬</div>
+            <div class="contact-info">
+                <div class="title">+56 9 2700 4308</div>
+                <div class="subtitle">WhatsApp</div>
+            </div>
+        </a>
+        <a href="mailto:mystoscctv@gmail.com" class="contact-item">
+            <div class="icon icon-email">✉️</div>
+            <div class="contact-info">
+                <div class="title">mystoscctv@gmail.com</div>
+                <div class="subtitle">Correo electrónico</div>
+            </div>
+        </a>
+        <a href="https://facebook.com/mystoscctv" target="_blank" class="contact-item">
+            <div class="icon icon-fb">f</div>
+            <div class="contact-info">
+                <div class="title">mystoscctv</div>
+                <div class="subtitle">Facebook</div>
+            </div>
+        </a>
+    </div>
+
+    <a href="https://wa.me/56927004308?text=Hola,%20quiero%20cotizar%20mi%20instalación%20sin%20costo" target="_blank" class="btn-cta">
+        Cotiza tu instalación sin costo
+    </a>
+
+    <div class="footer-location">
+        Santiago y alrededores
+    </div>
+</div>
+
+</body>
+</html>
