@@ -1,1 +1,0 @@
-servicio técnico especializado 
